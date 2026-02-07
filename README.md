@@ -19,8 +19,23 @@ Student-Performance-Prediction/
 ├── .gitignore
 └── README.md
 
-## Clone command
+## Installation & Setup
+
+```bash
+# 1. Clone the repository
 git clone https://github.com/DivyanshiChaturvedi/Student-Performance-Prediction.git
 cd Student-Performance-Prediction
+
+# 2. Create virtual environment
+python -m venv venv
+
+# 3. Activate virtual environment (Windows)
+venv\Scripts\activate
+
+# 4. Install dependencies
+pip install -r requirements.txt
+` ``` `
+
+
 
 
