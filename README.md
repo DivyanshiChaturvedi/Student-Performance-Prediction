@@ -36,6 +36,19 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ` ``` `
 
+API Endpoints
+
+## API Endpoints
+
+| Method | Endpoint  | Description |
+|------|----------|-------------|
+| GET  | `/`      | Health check |
+| POST | `/predict` | Predict student performance |
+
+Swagger UI available at:
+http://127.0.0.1:8000/docs
+
+
 
 
 
