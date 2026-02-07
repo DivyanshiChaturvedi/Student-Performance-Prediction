@@ -2,6 +2,49 @@
 
 This project predicts student academic performance using machine learning techniques based on various input features.
 
+##  Problem Statement
+To predict a student's **math score** using factors such as:
+- Gender
+- Race/Ethnicity
+- Parental level of education
+- Lunch type
+- Test preparation course
+
+This helps understand how socio-economic and educational factors impact student performance.
+
+---
+
+##  Dataset
+- **Dataset**: Student Performance Dataset
+- **Features Used**:
+  - Gender
+  - Race/Ethnicity
+  - Parental Level of Education
+  - Lunch Type
+  - Test Preparation Course
+- **Target Variable**: Math Score
+
+Categorical variables were converted using **One-Hot Encoding**.
+
+---
+
+##  Machine Learning Model
+- **Algorithm Used**: Linear Regression
+- **Why Regression?**
+  - The output (math score) is a continuous numeric value.
+  - Regression models are suitable for predicting continuous outcomes.
+
+---
+
+##  Tech Stack
+- Python
+- FastAPI
+- Uvicorn
+- Scikit-learn
+- Pandas
+- NumPy
+- Pydantic
+
 ---
 
 ## Project Structure
