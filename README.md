@@ -80,13 +80,26 @@ pip install -r requirements.txt
 ` ``` `
 
 API Endpoints
+### POST `/predict`
 
-## API Endpoints
+Predicts the math score based on input features.
 
-| Method | Endpoint  | Description |
-|------|----------|-------------|
-| GET  | `/`      | Health check |
-| POST | `/predict` | Predict student performance |
+#### Request Body (JSON)
+```json
+{
+  "gender_male": 1,
+  "race_ethnicity_group_B": 0,
+  "race_ethnicity_group_C": 1,
+  "race_ethnicity_group_D": 0,
+  "race_ethnicity_group_E": 0,
+  "parental_level_of_education_bachelors_degree": 0,
+  "parental_level_of_education_high_school": 1,
+  "parental_level_of_education_masters_degree": 0,
+  "parental_level_of_education_some_college": 0,
+  "parental_level_of_education_some_high_school": 0,
+  "lunch_standard": 1,
+  "test_preparation_course_completed": 1
+}
 
 Swagger UI available at:
 http://127.0.0.1:8000/docs
