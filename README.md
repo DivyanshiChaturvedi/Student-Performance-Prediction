@@ -44,6 +44,7 @@ Categorical variables were converted using **One-Hot Encoding**.
 - Pandas
 - NumPy
 - Pydantic
+- Flask
 
 ---
 
